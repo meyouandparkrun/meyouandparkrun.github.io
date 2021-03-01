@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+color: #555;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  padding-right: 10px;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6a623;
+}
+
+.post, .about {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 10px 0 10px;
+  padding-left: 10px;
+}
+
+.post-author img {
+  width: 70px;
+  height: 70px;
+  vertical-align: right;
+}
+
+.post-author span {
+  margin-left: 16px;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+
+.post-date, .temperature {
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.about {
+  text-align: center;
+}
+
+.post-author img, .about-author img {
+  border-radius: 0 25px 0 25px;
+}
+
+.post-container:nth-child(even) {
+ background-color: #f2f2f2;
+ padding-top: 15px;
+ padding-bottom: 5px;
+}
+
+.course-description {
+  text-align: center;
+  font-style: italic;
+}
+
+.blog-link {
+  text-align: right;
+  font-weight: bold;
+}
+
+.post-author {
+  font-weight: bold;
+  float: right;
+}
+
+#link {
+height: 300px;
+width: 800px;
+}
+
+.town-description {
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.temperature {
+  float: right;
+  margin-top: 30px;
+  font-size: 13px;
+  text-align: right;
+}
+
+.results {
+  font-weight: bold;
+  text-align: right;
+}
+
+.right-picture {
+  float: right;
+  height: 280px;
+  width: auto;
+  padding: 15px 0px 0 15px;
+}
+
+.fingal-right-picture {
+  float: right;
+  height: 260px;
+  width: auto;
+  padding-left: 15px;
+}
+
+.left-picture {
+  float: left;
+  height: 200px;
+  width: auto;
+  padding: 0px 10px 20px 0;
+}
+
+.fingal-left-picture {
+  float: left;
+  height: 255px;
+  width: auto;
+  padding: 0px 0px 20px 0px;
+}
+
+
+.ratings {
+  text-align: right;
+}
+
+.more-info {
+  text-align: center;
+}
+
+.blog-content {
+  text-align: justify;
+}
+
+.feedback {
+  text-align: right;
+}
+
+.overview {
+  text-align: center;
+}
+
+.title-picture {
+  height: auto;
+  width: 800px;
+}
+
+.bowral-left-picture {
+  height: 310px;
+  width: auto;
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+.charleston-left-picture {
+  float: left;
+  margin-bottom: 20px;
+  height: 310px;
+  width: auto;
+}
